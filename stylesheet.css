@@ -1,0 +1,157 @@
+body {
+	font-family: roboto, "arial narrow";
+	width: 750px;
+	font-weight: 300;
+	display: flex;
+	flex-wrap: wrap;
+	margin: auto;
+	margin-top: 1em;
+	margin-bottom: 5em;
+	padding: 0.5em;
+}
+
+@media screen and (min-width: 750px) {
+	.container {
+		width: 750px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+}
+
+@media screen and (min-width: 500px) {
+	figure.skills-format {
+		margin-left: 0px;
+		display: inline-block;
+		margin-right: 0px;
+	}
+
+	.caption {
+		font-weight: 300;
+		font-size: 1.25em;
+		margin: 0.5em 0em 0em 0em;
+		text-align: center;
+	}
+
+	.org {
+		font-weight: 300;
+		font-size: 1em;
+		margin: 0em 0em;
+		text-align: center;
+		color: #666;
+	}
+
+	.skills-list {
+		display: none;
+	}
+}
+
+@media screen and (min-width: 100px) and (max-width: 499px) {
+	.skills {
+		display: none;
+	}
+}
+
+.banner {
+	width: 100%;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.header-logo {
+	height: 72px;
+	float: left;
+}
+
+.header-title {
+	font-weight: 300;
+	font-size: 2em;
+	margin: 0em 0em;
+	color: #2d3c49;
+	text-align: right;
+}
+
+.subtitle {
+	font-weight: 300;
+	font-size: 1em;
+	margin: 0em 0em 0em 0em;
+	color: #2d3c49;
+	text-align: right;
+}
+
+hr {
+	width: 100%;
+	display: block;
+	height: 1px;
+	border: 0;
+	border-top: 1px solid #2d3c49;
+}
+
+.finance {
+	margin: auto;
+	margin-top: 0.5em;
+	box-shadow: 5px 10px 5px grey;
+}
+
+.education {
+	font-weight: 300;
+	font-size: 1.5em;
+	margin: 1em 0em 0.5em 0em;
+}
+
+.sixsigma {
+	margin: 0px 10px;
+	/* box-shadow: 10px 10px 5px grey; */
+	box-shadow: 5px 10px 5px grey;
+}
+
+.econ {
+	box-shadow: 5px 10px 5px grey;
+}
+
+.web-dev {
+	box-shadow: 5px 10px 5px grey;
+}
+
+@media screen and (max-width: 499px) {
+	ul {
+		list-style: none;
+		padding: 0;
+		margin: 0;
+	}
+
+	.skills-list {
+		clear: both;
+		margin: 32px 0px;
+	}
+
+	.skills__thumbnail {
+		width: 100px;
+		float: left;
+		margin-right: 1em;
+		box-shadow: 5px 10px 5px grey;
+	}
+
+	.skills__title {
+		font-weight: 400;
+		font-size: 2.5em;
+		text-align: left;
+		margin: 0em 0em 0em 0em;
+	}
+
+	.skills__title a {
+		text-decoration: none;
+		color: #666;
+		padding: 2em 0em 0em 0em;
+		margin: 0em 0em 0em 0em;
+	}
+
+	.skills__org {
+		padding: 0em 0em 0em 0em;
+		font-size: 1.5em;
+		margin: 0em 0em 0em 0em;
+	}
+
+	.snippet__title a:hover, .snippet__title a:active {
+		text-decoration: underline;
+	}
+}
